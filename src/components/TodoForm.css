@@ -1,0 +1,30 @@
+.input-container {
+    width: 100%;
+    display: flex;
+    margin-bottom: 1rem;
+  }
+  
+  input {
+    width: 100%;
+    padding: 0.7rem;
+    font-size: 0.8rem;
+    border: none;
+    border-radius: 10px 0 0 10px;
+    
+  }
+  
+  input:focus {
+    outline: none;
+  }
+  
+  .add-todo-btn {
+    font-family: inherit;
+    width: 75px;
+    color: #fff;
+    background-color: #715dd6;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: background-color 0.1s ease-in;
+  }

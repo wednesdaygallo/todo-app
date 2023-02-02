@@ -1,0 +1,62 @@
+h2 {
+    width: 100%;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  ul {
+    margin:0;
+    padding: 0;
+  }
+  
+  .todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+    padding: 0 1.5rem;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    /* background-color: #aa9aff; */
+    border: 1px solid #aa9aff;
+    font-size: 0.7rem;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    border-radius: 30px;
+  }
+  
+  .delete-btn {
+    padding: 0;
+    height: 25px;
+    width: 25px;
+    background: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.1s ease-in ;
+  }
+
+  .edit-btn {
+    margin-right: 0.7rem;
+    padding: 0;
+    height: 25px;
+    width: 25px;
+    background: transparent;
+    border: none;
+    color: rgb(200, 200, 200);
+    cursor: pointer;
+    transition: all 0.1s ease-in ;
+  }
+  
+  .delete-btn:hover {
+    color: #c2853b;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: #c2853b;
+  }
